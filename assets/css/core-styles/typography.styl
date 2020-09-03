@@ -1,0 +1,49 @@
+.text
+  margin 0
+  color $black
+  .text&-normal
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: -0.2px;
+    &--grey
+      color $text-grey
+    &--white
+      color $white
+    +desktop()
+      font-size: 17px;
+      line-height: 24px;
+  .text&-description
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: -0.2px;
+    +desktop()
+      font-size: 28px;
+      line-height: 36px;
+  .text&-title
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    .accent
+      font-weight lighter
+      font-style italic
+    +desktop()
+      font-size: 14px;
+      line-height: 16px;
+  &--grey
+    color $text-grey
+  &--white
+    color $white
+
+h2
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 40px;
+  letter-spacing: -1px;
+  margin 0
+  +desktop()
+    font-size: 128px;
+    line-height: 128px;
+    text-align: center;
+    letter-spacing: -7px;

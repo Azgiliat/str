@@ -1,0 +1,118 @@
+.grid
+  display flex
+  padding-left $column-gap
+  padding-right $column-gap
+  flex-wrap wrap
+  justify-content space-between
+  width 100%
+  max-width 1600px
+  //margin-right: -($column-gap)
+  //margin-left: -($column-gap)
+  margin-left auto
+  margin-right auto
+  @media $desktop
+    padding-left $laptop-column-gap
+    padding-right $laptop-column-gap
+  &.no-gap
+    padding 0
+
+.column
+  //padding-left $column-gap
+  //padding-right $column-gap
+  //+laptop()
+  //  padding-left $laptop-column-gap
+  //  padding-right $laptop-column-gap
+
+  for $i in (1..$column)
+    &.is-{$i}
+      width: ($i / $column) * 100%
+
+  for $media in $mobile $tablet $laptop $desktop
+    for $i in (1..$column)
+      &.is-{$i}
+        &-tablet
+          @media $media
+            width: ($i / $column) * 100%
+        &-laptop
+          @media $media
+            width: ($i / $column) * 100%
+        &-desktop
+          @media $media
+            width: ($i / $column) * 100%
+
+  for $i in (0..$column)
+    &.is-offset-{$i}
+      margin-left: ($i / $column) * 100%
+      &-tablet
+        +tablet()
+          margin-left: ($i / $column) * 100%
+      &-laptop
+        +laptop()
+          margin-left: ($i / $column) * 100%
+      &-desktop
+        +desktop()
+          margin-left: ($i / $column) * 100%
+    &.is-push-{$i}
+      margin-right: ($i / $column) * 100%
+      &-tablet
+        +tablet()
+          margin-right: ($i / $column) * 100%
+      &-laptop
+        +laptop()
+          margin-right: ($i / $column) * 100%
+      &-desktop
+        +desktop()
+          margin-right: ($i / $column) * 100%
+
+for $i in (0..5)
+  .is-order-{$i}
+    order ($i)
+    &-tablet
+      +tablet()
+        order ($i)
+    &-laptop
+      +laptop()
+        order ($i)
+    &-desktop
+      +desktop()
+        order ($i)
+
+
+.d-flex
+  display flex
+
+.d-inline-flex
+  display inline-flex
+
+.f-1-1
+  flex 1 1
+
+.f-1-1-auto
+  flex 1 1 auto
+
+.f-jc-sp
+  justify-content space-between
+
+.f-jc-fl
+  justify-content flex-start
+
+.f-jc-fe
+  justify-content flex-end
+
+.f-js-c
+  justify-content center
+
+.f-ai-c
+  align-items center
+
+.f-ai-fs
+  align-items flex-start
+
+.f-ai-fe
+  align-items flex-end
+
+.f-wrap
+  flex-wrap wrap
+
+.f-d-column
+  flex-direction column

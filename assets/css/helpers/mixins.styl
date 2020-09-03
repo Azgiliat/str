@@ -1,0 +1,117 @@
+size($width, $height = $width)
+  width $width
+  height $height
+
+font-pubg()
+  font-family 'Fira Sans Condensed', sans-serif
+  font-weight 600
+
+font-garena()
+  font-family 'Press Start 2P', sans-serif
+
+noselect()
+  -webkit-user-select none
+  -moz-user-select none
+  -ms-user-select none
+  user-select none
+
+borderThin($color = rgba($borderNew, .5))
+  mix-blend-mode: lighten;
+  background-image: linear-gradient(to bottom, $color 0%, $color 51%, transparent 51%);
+  background-size: 100% 1px;
+
+borderTop($color = rgba($borderNew, .5))
+  position relative
+  &:after
+    position absolute
+    top 0
+    left 0
+    width 100%
+    height 1px
+    content ''
+    pointer-events none
+    //borderThin($color)
+    background-color $border
+
+borderLeft($color = rgba($borderNew, .5))
+  position relative
+  &:before
+    position absolute
+    top 0
+    left 0
+    width 1px
+    height 100%
+    content ''
+    pointer-events non
+    background-color $border
+//borderThin($color)
+
+borderNone()
+  &:before
+    display none !important
+
+borderBottom($color = rgba($borderNew, .5), $bottom = -1px)
+  position relative
+  &:before
+    position absolute
+    bottom $bottom
+    left 0
+    width 100%
+    height 1px
+    content ''
+    pointer-events none
+    //borderThin($color)
+    background-color $border
+
+transition($property = all, $easing = ease, $speed = 0.25s)
+  transition: $property $easing $speed;
+  -webkit-transition: $property $easing $speed;
+
+placeholder()
+  &::-webkit-input-placeholder
+    {block}
+  &:-moz-placeholder
+    {block}
+  &::-moz-placeholder
+    {block}
+  &:-ms-input-placeholder
+    {block}
+
+mobile()
+  @media $mobile
+    {block}
+
+mobile-only()
+  @media $mobile-only
+    {block}
+
+tablet()
+  @media $tablet
+    {block}
+
+tablet-only()
+  @media $tablet-only
+    {block}
+
+laptop()
+  @media $laptop
+    {block}
+
+desktop()
+  @media $desktop
+    {block}
+
+retina()
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi)
+    {block}
+
+pseudo-element()
+  content ''
+  position absolute
+  top 0
+  left 0
+
+center-text()
+  margin-right auto
+  margin-left auto
+  text-align center

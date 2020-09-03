@@ -1,0 +1,18 @@
+weights = {
+  Light: 300,
+  Regular: 400,
+  Medium: 500,
+  SemiBold: 600,
+  Bold: 700
+}
+
+for key, value in weights
+  @font-face {
+    font-family: 'SuisseIntl';
+    src: local('SuisseIntl-' + key),
+      url('/fonts/SuisseIntl-' + key + '.woff2') format('woff2'),
+      url('/fonts/SuisseIntl-' + key + '.woff') format('woff'),
+      url('/fonts/SuisseIntl-' + key + '.ttf') format('truetype');
+    font-weight: value;
+    font-style: normal;
+  }

@@ -1,0 +1,39 @@
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  font-family: $main-font;
+  background-color: $white;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.container
+  margin 0 auto
+  min-width $min-width
+  width 100%
+  +tablet()
+    max-width $container-tablet
+  +laptop()
+    max-width $container-laptop
+  +desktop()
+    max-width $container-desktop
