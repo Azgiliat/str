@@ -5,11 +5,33 @@ module.exports = {
     port: 8080,
     host: process.env.NODE_ENV === 'development' ? 'localhost' : '0.0.0.0'
   },
+  head: {
+    meta: [
+      { charset: 'utf-8' },
+      {
+        name: 'viewport',
+        content: 'width=device-width, initial-scale=1, maximum-scale=5'
+      },
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'Arenum'
+      },
+      {
+        name: 'msapplication-TileImage',
+        content: '/favicons/ms-icon-144x144.png'
+      },
+      { name: 'imagetoolbar', content: 'no' },
+      { name: 'google', value: 'notranslate' },
+      { name: 'cleartype', content: 'on' },
+      { name: 'HandheldFriendly', content: 'True' }
+    ]
+  },
   build: {
     /*
      ** Run ESLint on save
      */
-    extend(config, { isDev, isClient }) {
+    extend (config, { isDev, isClient }) {
       if (isDev && isClient) {
         config.module.rules.push({
           enforce: 'pre',
@@ -60,7 +82,7 @@ module.exports = {
     input: '~/assets/icons',
     output: '~/assets/sprite',
     defaultSprite: 'sprite',
-    svgoConfig() {
+    svgoConfig () {
       return {
         plugins: [
           {

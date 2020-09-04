@@ -23,18 +23,11 @@ export default {
 
 <style lang="stylus" scoped>
 .slide
-  width 335px
-  height 444px
   position relative
-
-  @media $desktop {
-    width 472px
-    height 624px
-  }
 
   &__img
     width 100%
-    height 100%
+    height auto
 
   &__title
     position absolute

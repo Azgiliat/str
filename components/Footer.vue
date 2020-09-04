@@ -1,18 +1,17 @@
 <template lang="pug">
   footer.footer
     nav.grid.d-flex.f-ai-c.f-jc-sp.footer__nav
-      .footer__left
-        p.text.text--white.footer__title StreamTheater
-          svg-icon.footer__copyright(name="copyright")
-      .footer__mid
-        p.text.text-title.footer__mid-item.text--white Студия цифровых продуктов
-        a.text.text-normal.footer__mid-item.text--white(href="mailto:hello@streamtheater.com") hello@streamtheater.com
-        p.text.text-normal.footer__mid-item.text--white Решения
-        p.text.text-normal.footer__mid-item.text--white Кейсы
-      .footer__right
-        p.text.footer__menu Menu
-        p.text.text-normal.footer__contacts.text--white О нас
-        p.text.text-normal.footer__contacts.text--white Контакты
+      p.text.footer__title.column.is-6.is-2-laptop.text--white
+        |  StreamTheater
+        sup &reg;
+      p.text.text-title.text--white.column.is-4-laptop.footer__mid-item Студия цифровых продуктов
+      a.text.text-normal.text--white.column.is-3-laptop.footer__mid-item(href="mailto:hello@streamtheater.com") hello@streamtheater.com
+      .footer__mid-item.column.is-2-laptop.d-flex
+        nuxt-link.text.text-normal.text--white.footer__solutions.footer__link(to="/solutions") Решения
+        p.text.text-normal.text--white Кейсы
+          sup 4
+      p.text.footer__menu.column.is-2.text--white Menu
+      p.text.text-normal.footer__contacts.column.is-1-laptop.text--white Контакты
     .footer__content.grid.content
       h2.text--white.column.is-6.content__header.is-12-deskop Свяжитесь с нами
       a(href="mailto:hello@streamtheater.com").text--white.content__email.column.is-12 hello@streamtheater.com
@@ -36,9 +35,10 @@ export default {
   background-color: $footer-back;
   padding-top: 36px;
   padding-bottom: 16px;
-  height: 100vh;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
+  min-width: 100%;
 
   &__title {
     font-weight: 600;
@@ -64,7 +64,7 @@ export default {
       cursor: pointer;
     }
 
-    @media $desktop {
+    @media $tablet {
       display none
     }
   }
@@ -72,45 +72,22 @@ export default {
   &__contacts {
     display none
 
-    @media $desktop {
+    @media $tablet {
       display block
     }
   }
 
-  &__left {
-    @media $desktop {
-      margin-right 91px
-    }
-  }
-
-  &__right {
-    @media $desktop {
-      flex-grow 1
-      display flex
-      margin-left 40px
-      justify-content space-between
-    }
-  }
-
-  &__mid {
+  &__mid-item {
     display none
 
-    @media $desktop {
+    @media $tablet {
       display flex
       align-items center
-
-      &-item:first-child {
-        margin-right 280px
-      }
-
-      &-item:nth-child(2) {
-        margin-right 180px
-      }
-
-      &-item:nth-child(3) {
-        margin-right 20px
-      }
     }
+  }
+
+  &__solutions {
+    margin-right 34px
   }
 
   &__nav {
@@ -173,6 +150,14 @@ export default {
       @media $desktop {
         center-text()
       }
+    }
+  }
+
+  &__link {
+    text-decoration none
+
+    &:hover {
+      cursor pointer
     }
   }
 }

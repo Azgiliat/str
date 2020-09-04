@@ -1,9 +1,10 @@
 <template lang="pug">
   section.main
-    .main__top.grid
-      .column.is-12
-        h2.main__header Мобильные, десктоп и веб приложения
-        p.main__sub-header.text.text-description.column.is-6-desktop Разработка программного обеспечения для стартапов и большого бизнеса
+    .main__top
+      .grid
+        h1.main__header.column.is-12 Мобильные, десктоп и&nbsp;веб приложения
+      .grid
+        p.main__sub-header.text.text-description.column.is-12.is-6-laptop.is-offset-3-tablet Разработка программного обеспечения для стартапов и большого бизнеса
     Intro.main__intro
     WhatWeDo.main__what-we-do
     Solutions.main__solutions
@@ -27,19 +28,20 @@ export default {
 <style scoped lang="stylus">
 .main
   &__top
-    height 76.35vh
-    @media $desktop
-      height 71.2vh
+    min-height 76.35vh
+
+    //@media $tablet
+    //  min-height 71.2vh
 
   &__intro
     margin-bottom 240px
-    @media $desktop
+    @media $tablet
       margin-bottom 320px
 
   &__solutions {
     margin-bottom 192px
 
-    @media $desktop {
+    @media $tablet {
       margin-bottom 316px
     }
   }
@@ -48,12 +50,16 @@ export default {
     text-transform uppercase
     margin-bottom 12px
 
-    @media $desktop
+    @media $tablet
+      text-align center
       margin-bottom 24px
 
   &__sub-header
-    @media $desktop
+    margin-bottom auto
+    @media $tablet
       text-align center
-      margin 0 auto
-      padding 0 90px
+
+  &__what-we-do {
+    margin-bottom 320px
+  }
 </style>

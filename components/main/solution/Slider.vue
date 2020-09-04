@@ -1,5 +1,5 @@
 <template lang="pug">
-  swiper( ref="mySwiper" :options="swiperOptions" @click.native="tmp")
+  swiper.slider( ref="mySwiper" :options="swiperOptions")
     swiper-slide
       Slide(:img="'slide-3'")
     swiper-slide
@@ -10,28 +10,42 @@
 
 <script>
 import Slide from './Slide'
+
 export default {
   name: 'Slider',
   components: {
     Slide
   },
-  data() {
+  data () {
     return {
       swiperOptions: {
-        slidesPerView: 1.1,
-        spaceBetween: 24,
+        slidesPerView: 1,
+        spaceBetween: 10,
+        loop: false,
+        speed: 1000,
+        grabCursor: false,
+        watchSlidesProgress: true,
+        mousewheelControl: true,
+        keyboardControl: true,
+        centeredSlides: true,
         breakpoints: {
           1440: {
             slidesPerView: 3,
             slidesPerGroup: 3,
-            spaceBetween: -22
+            spaceBetween: 20,
+            speed: 1000,
+            grabCursor: true,
+            watchSlidesProgress: true,
+            mousewheelControl: true,
+            keyboardControl: true,
+            centeredSlides: false
           }
         }
       }
     }
   },
   computed: {
-    swiper() {
+    swiper () {
       return this.$refs.mySwiper.$swiper
     }
   }
@@ -39,4 +53,11 @@ export default {
 </script>
 
 <style lang="stylus">
+.slider {
+  overflow visible
+
+  @media $tablet {
+    overflow hidden
+  }
+}
 </style>

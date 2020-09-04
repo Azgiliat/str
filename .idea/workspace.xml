@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d5e57d70-7ad9-44ae-b28e-6ede9549554b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/pages/solutions.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/photos/solutions/solutions-first-point.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/photos/solutions/solutions-second-point.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/photos/solutions/solutions-third-point.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/core-styles/grid.styl" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/core-styles/grid.styl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/core-styles/typography.styl" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/core-styles/typography.styl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Footer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/Footer.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/Header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/Header.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/main/Intro.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/main/Intro.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/main/solution/CircleLogo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/main/solution/CircleLogo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/main/solution/Slide.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/main/solution/Slide.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/main/solution/Slider.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/main/solution/Slider.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/main/solution/Solutions.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/main/solution/Solutions.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/main/what-we-do/Bottom.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/main/what-we-do/Bottom.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/main/what-we-do/List.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/main/what-we-do/List.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/main/what-we-do/WhatWeDo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/main/what-we-do/WhatWeDo.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nuxt.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/nuxt.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.vue" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Vue Single File Component" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1gzuJjJfbc6BgME1VMD93V7jRvb" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/photos/solutions" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="E:\str\node_modules\prettier" />
+    <property name="vuejs.nuxt.types-notification-shown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\str\static\photos\solutions" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d5e57d70-7ad9-44ae-b28e-6ede9549554b" name="Default Changelist" comment="" />
+      <created>1599129671462</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1599129671462</updated>
+      <workItem from="1599129672748" duration="2443000" />
+      <workItem from="1599133643913" duration="10277000" />
+      <workItem from="1599162836811" duration="863000" />
+      <workItem from="1599199898037" duration="5421000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>

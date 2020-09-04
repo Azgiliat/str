@@ -1,18 +1,17 @@
 <template lang="pug">
   header.header
-    h1.visually-hidden StreamTheater Site
     nav.grid.d-flex.f-ai-c.f-jc-sp.header__nav
-      .header__left
-        p.text.header__title StreamTheater
-          svg-icon.header__copyright(name="copyright")
-      .header__mid
-        p.text.text-title.header__mid-item Студия цифровых продуктов
-        a.text.text-normal.header__mid-item(href="mailto:hello@streamtheater.com") hello@streamtheater.com
-        p.text.text-normal.header__mid-item Решения
-        p.text.text-normal.header__mid-item Кейсы
-      .header__right
-        p.text.header__menu Menu
-        p.text.text-normal.header__contacts Контакты
+      p.text.header__title.column.is-6.is-2-laptop
+          |  StreamTheater
+          sup &reg;
+      p.text.text-title.column.is-4-laptop.header__mid-item Студия цифровых продуктов
+      a.text.text-normal.column.is-3-laptop.header__mid-item(href="mailto:hello@streamtheater.com") hello@streamtheater.com
+      .header__mid-item.column.is-2-laptop.d-flex
+        nuxt-link.text.text-normal.header__solutions.header__link(to="/solutions") Решения
+        p.text.text-normal Кейсы
+          sup 4
+      p.text.header__menu.column.is-2 Menu
+      p.text.text-normal.header__contacts.column.is-1-laptop Контакты
 </template>
 
 <script>
@@ -33,13 +32,6 @@ export default {
     position: relative;
   }
 
-  &__copyright {
-    pseudo-element()
-    width 9px
-    height 10px
-    left 100%
-  }
-
   &__menu {
     font-size: 15px;
     line-height: 24px;
@@ -49,7 +41,7 @@ export default {
       cursor: pointer;
     }
 
-    @media $desktop {
+    @media $tablet {
       display none
     }
   }
@@ -57,47 +49,34 @@ export default {
   &__contacts {
     display none
 
-    @media $desktop {
+    @media $tablet {
       display block
     }
   }
 
-  &__left {
-    @media $desktop {
-      margin-right 91px
-    }
-  }
-
-  &__right {
-    @media $desktop {
-      margin-left 100px
-    }
-  }
-
-  &__mid {
+  &__mid-item {
     display none
 
-    @media $desktop {
+    @media $tablet {
       display flex
       align-items center
-      flex-grow 1
-
-      &-item:first-child {
-        margin-right 280px
-      }
-
-      &-item:nth-child(2) {
-        margin-right 180px
-      }
-
-      &-item:nth-child(3) {
-        margin-right 20px
-      }
     }
+  }
+
+  &__solutions {
+    margin-right 34px
   }
 
   &__nav {
     align-items center
+  }
+
+  &__link {
+    text-decoration none
+
+    &:hover {
+      cursor pointer
+    }
   }
 }
 </style>

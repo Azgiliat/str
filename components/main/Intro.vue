@@ -1,13 +1,14 @@
 <template lang="pug">
-  .intro.grid
-    .column.is-12
-      .intro__title.title.column.is-4-desktop
+  .intro
+    .grid
+      .intro__title.title.column.is-12.is-4-tablet.is-offset-4-tablet
         a.intro__email(:href="'mailto:hello@streamtheater.com'") hello@streamtheater.com
         p.text.text-title.title__text
           | Разработка
-          span.accent ИТ-решений
+          span.accent &nbsp;ИТ-решений&nbsp;
           | любой сложности
-      .intro__img-wrapper
+    .grid
+      .intro__img-wrapper.column.is-12.is-4-tablet.is-offset-4-tablet
         picture
           source(media="(min-width: 1440px)" srcset="/photos/intro-desktop.jpg")
           img.intro__img(alt="intro photo" src="/photos/intro.jpg")
@@ -26,31 +27,22 @@ export default {
     line-height: 24px;
     text-decoration-line underline
     color $text-grey
-    @media $desktop
+    @media $tablet
       display none
+
   .title
     margin-bottom 16px
 
-    @media $desktop
-      margin-right auto
-      margin-left auto
+    @media $tablet
       margin-bottom 20px
 
     &__text
       display none
-      @media $desktop
+      @media $tablet
         display block
         text-align center
 
-  &__img-wrapper
-    height 444px
-    width 335px
-    margin 0 auto
-    @media $desktop
-      width 472px
-      height 624px
-
   &__img
-    width 100%;
-    height 100%;
+    width 100%
+    height auto
 </style>

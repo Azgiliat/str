@@ -5,9 +5,6 @@
   flex-wrap wrap
   justify-content space-between
   width 100%
-  max-width 1600px
-  //margin-right: -($column-gap)
-  //margin-left: -($column-gap)
   margin-left auto
   margin-right auto
   @media $desktop
@@ -17,11 +14,9 @@
     padding 0
 
 .column
-  //padding-left $column-gap
-  //padding-right $column-gap
-  //+laptop()
-  //  padding-left $laptop-column-gap
-  //  padding-right $laptop-column-gap
+  padding 0
+    +tablet()
+      padding 0 16px
 
   for $i in (1..$column)
     &.is-{$i}
@@ -76,7 +71,6 @@ for $i in (0..5)
     &-desktop
       +desktop()
         order ($i)
-
 
 .d-flex
   display flex

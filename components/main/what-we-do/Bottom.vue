@@ -1,9 +1,10 @@
 <template lang="pug">
-  .bottom
-    p.bottom__text.text.text-normal.text-normal--grey Также мы можем разработать спецификации, оценить сроки и стоимость
+  .bottom.grid
+    p.column.is-12.bottom__text.text.text-normal.text-normal--grey Также мы можем разработать спецификации, оценить сроки и стоимость
       | реализации проекта, спроектировать решение и составить техзадание для вашей команды разработчиков
-    SiteLink.bottom__link(:to="'solutions'")
-      template(slot="text") Подробнее
+    .bottom__constrols.column.is-12
+      SiteLink.bottom__link(:to="'solutions'")
+        template(slot="text") Подробнее
 </template>
 
 <script>
