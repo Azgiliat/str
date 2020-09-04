@@ -20,24 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5e57d70-7ad9-44ae-b28e-6ede9549554b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pages/solutions.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/photos/solutions/solutions-first-point.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/photos/solutions/solutions-second-point.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/photos/solutions/solutions-third-point.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/core-styles/grid.styl" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/core-styles/grid.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/core-styles/typography.styl" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/core-styles/typography.styl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Footer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/Footer.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/Header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/Header.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/main/Intro.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/main/Intro.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/main/solution/CircleLogo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/main/solution/CircleLogo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/main/solution/Slide.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/main/solution/Slide.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/main/solution/Slider.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/main/solution/Slider.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/main/solution/Solutions.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/main/solution/Solutions.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/main/what-we-do/Bottom.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/main/what-we-do/Bottom.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/main/what-we-do/List.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/main/what-we-do/List.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/main/what-we-do/WhatWeDo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/main/what-we-do/WhatWeDo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nuxt.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/nuxt.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.vue" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +71,7 @@
       <workItem from="1599129672748" duration="2443000" />
       <workItem from="1599133643913" duration="10277000" />
       <workItem from="1599162836811" duration="863000" />
-      <workItem from="1599199898037" duration="5421000" />
+      <workItem from="1599199898037" duration="6083000" />
     </task>
     <servers />
   </component>

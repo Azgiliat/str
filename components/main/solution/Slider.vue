@@ -29,7 +29,7 @@ export default {
         keyboardControl: true,
         centeredSlides: true,
         breakpoints: {
-          1440: {
+          768: {
             slidesPerView: 3,
             slidesPerGroup: 3,
             spaceBetween: 20,
@@ -55,9 +55,5 @@ export default {
 <style lang="stylus">
 .slider {
   overflow visible
-
-  @media $tablet {
-    overflow hidden
-  }
 }
 </style>
