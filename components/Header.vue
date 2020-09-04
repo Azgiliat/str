@@ -5,9 +5,9 @@
           |  StreamTheater
           sup &reg;
       p.text-title.column.is-4-laptop.header__mid-item Студия цифровых продуктов
-      a-normal.column.is-3-laptop.header__mid-item(href="mailto:hello@streamtheater.com") hello@streamtheater.com
+      a.text-normal.column.is-3-laptop.header__mid-item(href="mailto:hello@streamtheater.com") hello@streamtheater.com
       .header__mid-item.column.is-3-laptop.d-flex.f-ai-c.f-jc-sp
-        nuxt-link-normal.header__solutions.header__link(to="/solutions") Решения
+        nuxt-link.text-normal.header__solutions.header__link(to="/solutions") Решения
         p.text-normal Кейсы
           sup 4
         p.text-normal.header__contacts Контакты

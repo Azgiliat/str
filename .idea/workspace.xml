@@ -20,21 +20,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d5e57d70-7ad9-44ae-b28e-6ede9549554b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/assets/icons/angle_down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/solutions/Intro/Intro.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/solutions/Intro/PointsList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/solutions/Intro/Slide.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/solutions/standarts/Bottom.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/solutions/standarts/ListComponent.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/solutions/standarts/Standards.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/solutions/standarts/StandardsList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/solutions/standarts/Title.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/solutions/what-we-do/Description.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/solutions/what-we-do/List.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/solutions/what-we-do/ListPoint.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/components/solutions/what-we-do/WhatWeDo.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/css/core-styles/global.styl" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/core-styles/global.styl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/core-styles/grid.styl" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/core-styles/grid.styl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/assets/css/core-styles/typography.styl" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/core-styles/typography.styl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/helpers/variables.styl" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/helpers/variables.styl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Footer.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/Footer.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/Header.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/Header.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/UI/SiteLink.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/UI/SiteLink.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/main/Intro.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/main/Intro.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/components/main/solution/CircleLogo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/main/solution/CircleLogo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/main/solution/Slide.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/main/solution/Slide.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/main/solution/Solutions.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/main/solution/Solutions.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/main/what-we-do/Bottom.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/main/what-we-do/Bottom.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/main/what-we-do/List.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/main/what-we-do/List.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/main/what-we-do/WhatWeDo.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/main/what-we-do/WhatWeDo.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/layouts/default.vue" beforeDir="false" afterPath="$PROJECT_DIR$/layouts/default.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/solutions.vue" beforeDir="false" afterPath="$PROJECT_DIR$/pages/solutions.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/photos/solutions/solutions-first-point.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/photos/solutions/intro/first-point.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/photos/solutions/solutions-second-point.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/photos/solutions/intro/second-point.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/photos/solutions/solutions-third-point.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/static/photos/solutions/intro/third-point.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,8 +53,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Vue Single File Component" />
         <option value="JavaScript File" />
+        <option value="Vue Single File Component" />
       </list>
     </option>
   </component>
@@ -60,7 +69,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/static/photos/solutions" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets/icons" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -69,7 +78,12 @@
     <property name="vuejs.nuxt.types-notification-shown" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\str\components\solutions\Intro" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\str\assets\icons" />
+      <recent name="E:\str\static\photos\solutions\intro" />
       <recent name="E:\str\static\photos\solutions" />
     </key>
   </component>
@@ -84,7 +98,7 @@
       <workItem from="1599129672748" duration="2443000" />
       <workItem from="1599133643913" duration="10277000" />
       <workItem from="1599162836811" duration="863000" />
-      <workItem from="1599199898037" duration="10956000" />
+      <workItem from="1599199898037" duration="25608000" />
     </task>
     <servers />
   </component>

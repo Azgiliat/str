@@ -10,8 +10,9 @@
         nuxt-link.text-normal.text--white.footer__solutions.footer__link(to="/solutions") Решения
         p.text-normal.text--white Кейсы
           sup 4
+        p.text-normal.text--white О нас
         p.text-normal.footer__contacts.text--white Контакты
-      p.footer__menu.column.is-2--white Menu
+      p.footer__menu.column.is-2.text--white Menu
     .footer__content.grid.content
       h2.text--white.column.is-6.content__header.is-12-deskop Свяжитесь с нами
       a(href="mailto:hello@streamtheater.com").text--white.content__email.column.is-12 hello@streamtheater.com

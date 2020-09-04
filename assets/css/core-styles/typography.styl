@@ -3,13 +3,35 @@
     font-size: 15px;
     line-height: 20px;
     letter-spacing: -0.2px;
+    color: $black;
+
     &--grey
       color $text-grey
+
     &--white
       color $white
     +desktop()
       font-size: 17px;
       line-height: 24px;
+
+  &-big
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+
+    +desktop()
+      font-size: 28px;
+      line-height: 36px
+
+  &-extra-big
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 40px;
+
+    +desktop()
+      font-size: 80px;
+      line-height: 80px
+
   &-description
     font-weight: 500;
     font-size: 17px;
@@ -18,19 +40,23 @@
     +desktop()
       font-size: 28px;
       line-height: 36px;
+
   &-title
     font-size: 12px;
     line-height: 16px;
     letter-spacing: 0.02em;
     text-transform: uppercase;
+
     .accent
       font-weight lighter
       font-style italic
     +desktop()
       font-size: 14px;
       line-height: 16px;
+
   &--grey
     color $text-grey
+
   &--white
     color $white
 
@@ -40,6 +66,7 @@ h2, h1
   line-height: 40px;
   letter-spacing: -1px;
   margin 0
+  text-transform uppercase
   +desktop()
     font-size: 128px;
     line-height: 128px;

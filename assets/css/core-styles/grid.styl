@@ -22,7 +22,7 @@
     &.is-{$i}
       width: ($i / $column) * 100%
 
-  for $media in $mobile $tablet $laptop $desktop
+  for $media in $tablet $laptop $desktop
     for $i in (1..$column)
       &.is-{$i}
         &-tablet
