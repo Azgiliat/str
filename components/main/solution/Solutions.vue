@@ -4,7 +4,7 @@
       marquee-text.solutions__marquee
         h2.solutions__header-text &nbsp;Эффективное решение. Продуманный дизайн. Надежный продукт.&nbsp;
     .solutions__slider-header.grid
-      p.text.text-title.solutions__slider-title.column.is-12 Наши
+      p.text-title.solutions__slider-title.column.is-12 Наши
         span.accent &nbsp;последние&nbsp;
         | проекты
     .solutions__slider-wrapper.grid

@@ -3,22 +3,22 @@
     ul.list.column.is-12.is-8-tablet.is-offset-2-tablet
       li.list__item.list__item--services
         svg-icon.list__icon.list-icon--services(name="services")
-        p.text.text-normal Отказоустойчивые системы
+        p.text-normal Отказоустойчивые системы
       li.list__item.list__item--cloud
         svg-icon.list__icon.list-icon--cloud(name="cloud")
-        p.text.text-normal Веб-приложения
+        p.text-normal Веб-приложения
       li.list__item.list__item--monitor
         svg-icon.list__icon.list-icon--monitor(name="monitor")
-        p.text.text-normal Десктопные приложения
+        p.text-normal Десктопные приложения
       li.list__item.list__item--console
         svg-icon.list__icon.list-icon--console(name="console")
-        p.text.text-normal Бэкэнд-приложения
+        p.text-normal Бэкэнд-приложения
       li.list__item.list__item--cube
         svg-icon.list__icon.list-icon--cube(name="cube")
-        p.text.text-normal Блокчейн-проект
+        p.text-normal Блокчейн-проект
       li.list__item.list__item--mobile-app
         svg-icon.list__icon.list-icon--mobile-app(name="mobile-app")
-        p.text.text-normal Мобильные приложения
+        p.text-normal Мобильные приложения
 </template>
 
 <script>

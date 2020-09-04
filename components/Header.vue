@@ -1,17 +1,17 @@
 <template lang="pug">
   header.header
     nav.grid.d-flex.f-ai-c.f-jc-sp.header__nav
-      p.text.header__title.column.is-6.is-2-laptop
+      p.header__title.column.is-6.is-2-laptop
           |  StreamTheater
           sup &reg;
-      p.text.text-title.column.is-4-laptop.header__mid-item Студия цифровых продуктов
-      a.text.text-normal.column.is-3-laptop.header__mid-item(href="mailto:hello@streamtheater.com") hello@streamtheater.com
-      .header__mid-item.column.is-2-laptop.d-flex
-        nuxt-link.text.text-normal.header__solutions.header__link(to="/solutions") Решения
-        p.text.text-normal Кейсы
+      p.text-title.column.is-4-laptop.header__mid-item Студия цифровых продуктов
+      a-normal.column.is-3-laptop.header__mid-item(href="mailto:hello@streamtheater.com") hello@streamtheater.com
+      .header__mid-item.column.is-3-laptop.d-flex.f-ai-c.f-jc-sp
+        nuxt-link-normal.header__solutions.header__link(to="/solutions") Решения
+        p.text-normal Кейсы
           sup 4
-      p.text.header__menu.column.is-2 Menu
-      p.text.text-normal.header__contacts.column.is-1-laptop Контакты
+        p.text-normal.header__contacts Контакты
+      p.header__menu.column.is-2 Menu
 </template>
 
 <script>
@@ -24,6 +24,10 @@ export default {
 .header {
   padding-top: 36px;
   margin-bottom: 72px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
 
   &__title {
     font-weight: 600;
@@ -46,14 +50,6 @@ export default {
     }
   }
 
-  &__contacts {
-    display none
-
-    @media $tablet {
-      display block
-    }
-  }
-
   &__mid-item {
     display none
 
@@ -61,10 +57,6 @@ export default {
       display flex
       align-items center
     }
-  }
-
-  &__solutions {
-    margin-right 34px
   }
 
   &__nav {

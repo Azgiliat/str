@@ -1,6 +1,6 @@
 <template lang="pug">
   nuxt-link.site-link(:to="to")
-    p.text.text-normal.text-normal--white
+    p.text-normal.text--white
       slot(name="text")
 </template>
 

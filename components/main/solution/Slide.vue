@@ -3,9 +3,9 @@
     picture
       source(media="(min-width: 1440px)" :srcset="require(`~/static/photos/solutions-slider/desktop/${img}.jpg`) + ' 1x, ' + require(`../../../static/photos/solutions-slider/desktop/${img}@2x.jpg`) + ' 2x'")
       img.slide__img(:src="require(`~/static/photos/solutions-slider/${img}.jpg`)")
-    p.text.slide__title.text-title.text--white(v-show="$slots.title")
+    p.slide__title-title--white(v-show="$slots.title")
       slot(name="title")
-    p.text.slide__description.text--white(v-show="$slots.description")
+    p.slide__description--white(v-show="$slots.description")
       slot(name="description")
 </template>
 

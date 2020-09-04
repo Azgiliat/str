@@ -1,12 +1,12 @@
 <template lang="pug">
   .what-we-do
     .grid
-      p.text.text-title.column.is-12.what-we-do__title.is-2-tablet.is-offset-5-tablet
+      p.text-title.column.is-12.what-we-do__title.is-2-tablet.is-offset-5-tablet
         | что
         span.accent &nbsp;мы&nbsp;
         | делаем
     .grid
-      p.text.text-description.column.is-12.what-we-do__description.is-10-tablet.is-offset-1-tablet
+      p.text-description.column.is-12.what-we-do__description.is-10-tablet.is-offset-1-tablet
         |  Мы&nbsp;предлагаем комплексные программные решения с&nbsp;учетом
         br
         |  потребностей вашего бизнеса, опираясь на&nbsp;передовые информационные

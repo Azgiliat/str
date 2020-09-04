@@ -3,7 +3,7 @@
     .grid
       .intro__title.title.column.is-12.is-4-tablet.is-offset-4-tablet
         a.intro__email(:href="'mailto:hello@streamtheater.com'") hello@streamtheater.com
-        p.text.text-title.title__text
+        p.text-title.title__text
           | Разработка
           span.accent &nbsp;ИТ-решений&nbsp;
           | любой сложности

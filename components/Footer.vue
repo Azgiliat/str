@@ -1,23 +1,23 @@
 <template lang="pug">
   footer.footer
     nav.grid.d-flex.f-ai-c.f-jc-sp.footer__nav
-      p.text.footer__title.column.is-6.is-2-laptop.text--white
+      p.footer__title.column.is-6.is-2-laptop.text--white
         |  StreamTheater
         sup &reg;
-      p.text.text-title.text--white.column.is-4-laptop.footer__mid-item Студия цифровых продуктов
-      a.text.text-normal.text--white.column.is-3-laptop.footer__mid-item(href="mailto:hello@streamtheater.com") hello@streamtheater.com
-      .footer__mid-item.column.is-2-laptop.d-flex
-        nuxt-link.text.text-normal.text--white.footer__solutions.footer__link(to="/solutions") Решения
-        p.text.text-normal.text--white Кейсы
+      p.text-title.text--white.column.is-4-laptop.footer__mid-item Студия цифровых продуктов
+      a.text-normal.text--white.column.is-3-laptop.footer__mid-item(href="mailto:hello@streamtheater.com") hello@streamtheater.com
+      .footer__mid-item.column.is-3-laptop.d-flex.f-ai-c.f-jc-sp
+        nuxt-link.text-normal.text--white.footer__solutions.footer__link(to="/solutions") Решения
+        p.text-normal.text--white Кейсы
           sup 4
-      p.text.footer__menu.column.is-2.text--white Menu
-      p.text.text-normal.footer__contacts.column.is-1-laptop.text--white Контакты
+        p.text-normal.footer__contacts.text--white Контакты
+      p.footer__menu.column.is-2--white Menu
     .footer__content.grid.content
       h2.text--white.column.is-6.content__header.is-12-deskop Свяжитесь с нами
       a(href="mailto:hello@streamtheater.com").text--white.content__email.column.is-12 hello@streamtheater.com
-      p.content__description.text.text--grey.column.is-11.is-4-desktop Расскажите нам о своей компании и проектах, для которых хотите заказать разработку
+      p.content__description.text--grey.column.is-11.is-4-desktop Расскажите нам о своей компании и проектах, для которых хотите заказать разработку
     .footer__bottom.grid.bottom
-      p.text.text-title.text--grey.bottom__text &copy;2019. Все
+      p.text-title--grey.bottom__text &copy;2019. Все
         span.accent &nbsp;права&nbsp;
         | защищены
         br

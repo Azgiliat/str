@@ -1,8 +1,7 @@
 <template lang="pug">
   .default
     Header
-    .default
-      Nuxt
+    Nuxt
     Footer
 </template>
 
@@ -20,5 +19,12 @@ export default {
 </script>
 
 <style lang="stylus" scoped>
+.default {
+  position relative
+  padding-top 132px
 
+  @media $tablet {
+    padding-top 136px
+  }
+}
 </style>

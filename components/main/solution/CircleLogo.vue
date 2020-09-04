@@ -3,11 +3,11 @@
     .circle-logo__icon-wrapper
       img.circle-logo__icon(src="/photos/circle-letters.png")
     .grid
-      p.column.is-12.text.text-description.circle-logo__description.is-10-tablet.is-offset-1-tablet Мы&nbsp;&mdash; эксперты в&nbsp;создании кастомизированных программных
+      p.column.is-12-description.circle-logo__description.is-10-tablet.is-offset-1-tablet Мы&nbsp;&mdash; эксперты в&nbsp;создании кастомизированных программных
         br
         | продуктов. Наша команда трансформирует любые идеи в&nbsp;готовые ИТ-решения, исходя из&nbsp;вашего стратегического видения
     .grid
-      p.column.is-10.is-4-tablet.is-offset-4-tablet.text.text-title.circle-logo__sub-description
+      p.column.is-10.is-4-tablet.is-offset-4-tablet.text-title.circle-logo__sub-description
         span.accent разработаем лучшее продуктовое решение для вас
 </template>
 
